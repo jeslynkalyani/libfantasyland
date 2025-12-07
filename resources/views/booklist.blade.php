@@ -20,7 +20,7 @@
     @foreach ($books as $item)
     <div class="col">
       <div class="card mb-5">
-        <img src="{{ asset('public/'.$item->photo) }}" class="card-img-top" style="height: 300px; object-fit: cover;">
+        <img src="{{ asset('public/images/'.$item->photo) }}" class="card-img-top" style="height: 300px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">{{ $item->title }}</h5>
           <p class="card-text">
