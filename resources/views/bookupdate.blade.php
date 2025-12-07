@@ -12,7 +12,7 @@
 </div>
 
 <div class="d-flex justify-content-center my-4">
-    <img src="{{ asset('public/'.$book->photo) }}" alt="Book Photo" style="width: 150px; height: 200px; object-fit: cover;">
+    <img src="{{ asset('public/images/'.$book->photo) }}" alt="Book Photo" style="width: 150px; height: 200px; object-fit: cover;">
 </div>
 
 <form action="{{ route('book.update', ['book' => $book->id]) }}" method="post" enctype="multipart/form-data">
